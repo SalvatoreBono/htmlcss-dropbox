@@ -57,9 +57,13 @@ ul a {
     width: 800px;
 }
 
+.container-hero-footer {
+    width: 980px;
+    margin: 0 auto;
+}
+
 .hero {
     padding-top: 70px;
-    width: 980px;
     position: relative;
 }
 
@@ -136,7 +140,8 @@ h2 {
     padding-bottom: 7px;
 }
 
-.main-grid, .main-bottom-grid {
+.main-grid,
+.main-bottom-grid {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -157,7 +162,9 @@ h3 {
     color: rgb(102, 102, 102);
     padding-bottom: 30px;
 }
-
+a{
+    color: rgb(62, 31, 239);
+}
 .main-grid div i {
     padding-right: 5px;
 }
@@ -173,10 +180,6 @@ h3 {
     width: 100%;
 }
 
-.main-grid div a {
-    color: rgb(47, 0, 226);
-}
-
 .hr-sub {
     width: 20%;
     border-top: 1px solid rgb(230, 230, 232);
@@ -187,19 +190,109 @@ h3 {
 .sub-info {
     padding-bottom: 20px;
 }
-.bottom-grid{
+
+.bottom-grid {
     margin-top: 50px;
     height: 200px;
     position: relative;
 }
-.space{
+
+.space {
     justify-content: space-between;
     align-items: center;
 }
-.bottom-btn{
+
+.bottom-btn {
     width: 25%;
 }
 
-.text-grid-bottom{
+.text-grid-bottom {
     padding-top: 40px;
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.left-col-partner {
+    width: 65%;
+    margin-right: 35px;
+}
+
+.left-col-partner img {
+    width: 100%;
+}
+
+.right-col-partner {
+    width: 35%;
+}
+
+.btn-partner {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(33% - 30px);
+    margin: 15px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.bg {
+    background-color: rgb(180, 206, 230);
+}
+
+.h2-text {
+    color: rgb(96, 18, 47);
+}
+
+.top-align {
+    align-items: start;
+}
+
+.small {
+    font-size: 12px;
+    border: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.col-footer {
+    width: calc(20% - 30px);
+    margin: 15px;
+}
+
+.col-footer div {
+    padding-bottom: 10px;
+}
+
+.hr-footer {
+    width: 100px;
+    margin-top: 50px;
+}
+
+.left-footer-margin {
+    margin-left: 15px;
+}
+.color-footer{
+    color: rgb(151, 151, 151);
+}
+.align-mid {
+    vertical-align: middle;
 }
