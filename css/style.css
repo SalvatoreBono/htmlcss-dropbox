@@ -1,106 +1,162 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     padding: 25px;
     font-size: 18px;
 }
-.flex{
+
+.flex {
     display: flex;
 }
-.align{
+
+.align {
     align-items: center;
 }
 
-ul{
+ul {
     display: flex;
     list-style: none;
 }
-ul a{
+
+ul a {
     text-decoration: none;
     color: black;
 }
-.nav-left-text ul li a, .nav-right-text div{
+
+.nav-left-text ul li a,
+.nav-right-text div {
     padding-left: 30px;
     padding-right: 25px;
 }
-.button-main{
+
+.button-main {
     background-color: rgb(52, 91, 254);
     color: white;
     border: none;
     padding: 10px 15px;
     font-size: 18px;
 }
-.bg-hero{
+
+.bg-hero {
     background-color: rgb(180, 206, 230);
-    height: 690px;
+    height: 640px;
 }
-.container{
+
+.container {
     margin: 0 auto;
     width: 800px;
 }
-.hero{
+
+.hero {
     padding-top: 70px;
     width: 980px;
     position: relative;
 }
-.h-padding-bottom{
+
+.h-padding-bottom {
     padding-bottom: 50px;
 }
-h1{
+
+h1 {
     font-size: 70px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 900;
 }
-.col-left{
-    width: 25%;
+
+.col-left {
+    width: 30%;
 }
-.text-main-padding-bottom{
+
+.text-main-padding-bottom {
     padding-bottom: 30px;
 }
-.text-main-padding-top{
+
+.text-main-padding-top {
     padding-top: 30px;
 }
-.col-left i{
-    font-size: 50px;
+
+.col-left i {
+    font-size: 35px;
     padding-top: 50px;
 }
-.col-right{
-    width: 75%;
+
+.col-right {
+    width: 70%;
     position: absolute;
-    margin-top: 300px;
     right: 0;
+    bottom: -70px;
 }
-.col-right img{
+
+.col-right img {
     width: 100%;
     object-fit: contain;
 }
-.subscription-box{
+
+.subscription-box {
     padding-top: 150px;
     height: 800px;
 }
-h2{
+
+h2 {
     font-size: 30px;
 }
-.input{
+
+.input {
     padding-right: 50px;
 }
-.grid{
+
+.grid {
     margin-top: 60px;
     grid-template-columns: auto auto auto;
     display: grid;
     gap: 65px;
 }
-.grid > div{
+
+.box-grid {
+    border: 1px solid rgb(230, 230, 232);
+    font-size: 12px;
+    width: 230px;
+}
+
+.title-grid {
     text-align: center;
     border: 1px solid rgb(230, 230, 232);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.main-grid {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+.main-grid div{
+    padding-top: 15px;
+}
+h3{
+    font-size: 20px;
+}
+.month{
+    color:rgb(102, 102, 102);
+    padding-bottom: 30px;
+}
+.btn-sub-mid{
+    text-align: center;
+}
+.button-sub{
+    margin-top: 50px;
+    font-size: 12px;
 }
