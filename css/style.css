@@ -40,7 +40,7 @@ ul a{
 }
 .bg-hero{
     background-color: rgb(180, 206, 230);
-    height: 670px;
+    height: 690px;
 }
 .container{
     margin: 0 auto;
@@ -49,6 +49,7 @@ ul a{
 .hero{
     padding-top: 70px;
     width: 980px;
+    position: relative;
 }
 .h-padding-bottom{
     padding-bottom: 50px;
@@ -59,7 +60,7 @@ h1{
     font-weight: 900;
 }
 .col-left{
-    width: 35%;
+    width: 25%;
 }
 .text-main-padding-bottom{
     padding-bottom: 30px;
@@ -72,7 +73,10 @@ h1{
     padding-top: 50px;
 }
 .col-right{
-    width: 65%;
+    width: 75%;
+    position: absolute;
+    margin-top: 300px;
+    right: 0;
 }
 .col-right img{
     width: 100%;
