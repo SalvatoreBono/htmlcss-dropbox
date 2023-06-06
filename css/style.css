@@ -3,3 +3,74 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: 18px;
+}
+.flex{
+    display: flex;
+}
+.align{
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.nav-left-text ul li a, .nav-right-text div{
+    padding-left: 30px;
+    padding-right: 25px;
+}
+.button-main{
+    background-color: rgb(52, 91, 254);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+.bg-hero{
+    background-color: rgb(180, 206, 230);
+    height: 670px;
+}
+.container{
+    margin: 0 auto;
+    width: 980px;
+}
+.hero{
+    padding-top: 70px;
+}
+h1{
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+.col-left{
+    width: 35%;
+}
+.text-main-padding-bottom{
+    padding-bottom: 30px;
+}
+.text-main-padding-top{
+    padding-top: 30px;
+}
+.col-left i{
+    font-size: 50px;
+    padding-top: 50px;
+}
+.col-right{
+    width: 65%;
+}
+.col-right img{
+    width: 100%;
+}
