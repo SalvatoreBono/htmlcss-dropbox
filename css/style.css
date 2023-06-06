@@ -119,13 +119,14 @@ h2 {
     margin-top: 60px;
     grid-template-columns: auto auto auto;
     display: grid;
-    gap: 65px;
+    gap: 50px;
 }
 
 .box-grid {
     border: 1px solid rgb(230, 230, 232);
     font-size: 12px;
-    width: 230px;
+    width: 250px;
+    height: 760px;
 }
 
 .title-grid {
@@ -143,20 +144,49 @@ h2 {
 .bold {
     font-weight: bold;
 }
-.main-grid div{
+
+.main-grid div {
     padding-top: 15px;
 }
-h3{
+
+h3 {
     font-size: 20px;
 }
-.month{
-    color:rgb(102, 102, 102);
+
+.month {
+    color: rgb(102, 102, 102);
     padding-bottom: 30px;
 }
-.btn-sub-mid{
+
+.main-grid div i {
+    padding-right: 5px;
+}
+
+.btn-sub-mid {
     text-align: center;
 }
-.button-sub{
-    margin-top: 50px;
+
+.button-sub {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 12px;
+    width: 100%;
+}
+
+.main-grid div a {
+    color: rgb(47, 0, 226);
+}
+
+.hr-sub {
+    width: 20%;
+    border-top: 1px solid rgb(230, 230, 232);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.sub-info {
+    padding-bottom: 20px;
+}
+.bottom-grid{
+    height: 270px;
 }
