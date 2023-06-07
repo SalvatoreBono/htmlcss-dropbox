@@ -251,7 +251,19 @@ a {
 .card p {
     font-size: 15px;
 }
+.brand{
+    height: 75vh;
+}
 
+.left-box-brand{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand-container img{
+    width: 100%;
+}
 .bg {
     background-color: rgb(180, 206, 230);
 }
