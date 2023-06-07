@@ -251,18 +251,52 @@ a {
 .card p {
     font-size: 15px;
 }
-.brand{
-    height: 75vh;
+
+.brand-container {
+    justify-content: space-between;
 }
 
-.left-box-brand{
+.brand-left-right {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.brand-container img{
+.card-brand {
+    width: calc(50% - 100px);
+    padding: 100px;
+}
+
+.designit {
+    background-color: rgb(160, 210, 154);
+}
+
+.asu {
+    background-color: rgb(96, 18, 47);
+}
+
+.uf {
+    background-color: rgb(42, 144, 204);
+}
+
+.topps {
+    background-color: rgb(251, 43, 40);
+}
+
+.brand-container img {
     width: 100%;
+}
+.bic{
+    background-color: rgb(213, 0, 31);
+}
+.heart{
+    background-color: rgb(180, 208, 231);
+}
+.planet{
+    background-color: rgb(13, 36, 129);
+}
+.channel{
+    background-color: rgb(255, 216, 48);
 }
 .bg {
     background-color: rgb(180, 206, 230);
