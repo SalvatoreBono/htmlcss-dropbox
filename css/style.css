@@ -251,7 +251,10 @@ a {
 .card p {
     font-size: 15px;
 }
-
+.ratio{
+    aspect-ratio: 1 / 1;
+    height: 100%;
+}
 .brand-left-right {
     width: 50%;
     display: flex;
@@ -266,6 +269,7 @@ a {
 .mid-container-brand {
     background-color: rgb(245, 245, 245);
     width: 50%;
+    overflow: auto;
 }
 
 .mid-brand-box {
