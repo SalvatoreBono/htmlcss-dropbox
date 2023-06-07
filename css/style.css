@@ -262,24 +262,30 @@ a {
     width: 50%;
     height: 50%;
 }
-.mid-container-brand{
+
+.mid-container-brand {
     background-color: rgb(245, 245, 245);
     width: 50%;
 }
-.mid-brand-box{
+
+.mid-brand-box {
     width: 50%;
 }
-.brand-padding{
+
+.brand-padding {
     padding-left: 50px;
     padding-right: 50px;
 }
-#no-padding-bottom{
+
+#no-padding-bottom {
     padding-bottom: 5px;
 }
-.hr-brand{
+
+.hr-brand {
     border-top: 1px solid rgb(208, 208, 211);
     margin-left: 50px;
 }
+
 .designit {
     background-color: rgb(160, 210, 154);
 }
@@ -300,18 +306,23 @@ a {
     width: 100%;
     padding: 50px;
 }
-.bic{
+
+.bic {
     background-color: rgb(213, 0, 31);
 }
-.heart{
+
+.heart {
     background-color: rgb(180, 208, 231);
 }
-.planet{
+
+.planet {
     background-color: rgb(13, 36, 129);
 }
-.channel{
+
+.channel {
     background-color: rgb(255, 216, 48);
 }
+
 .bg {
     background-color: rgb(180, 206, 230);
 }
@@ -358,4 +369,12 @@ footer {
 
 .align-mid {
     vertical-align: middle;
+}
+
+.hide {
+    display: none;
+}
+
+.question:hover+.hide {
+    display: inline-block;
 }
