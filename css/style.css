@@ -252,9 +252,6 @@ a {
     font-size: 15px;
 }
 
-.brand-container {
-    justify-content: space-between;
-}
 
 .brand-left-right {
     width: 50%;
@@ -266,7 +263,15 @@ a {
     width: calc(50% - 100px);
     padding: 100px;
 }
-
+.mid-container-brand{
+    background-color: rgb(245, 245, 245);
+}
+.mid-brand-box{
+    width: 50%;
+}
+.hr-brand{
+    border-top: 1px solid rgb(208, 208, 211);
+}
 .designit {
     background-color: rgb(160, 210, 154);
 }
