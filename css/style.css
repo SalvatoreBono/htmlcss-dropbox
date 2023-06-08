@@ -117,6 +117,21 @@ h2 {
 .input {
     padding-right: 50px;
 }
+.input [type="radio"] {
+    display: none;
+}
+.custom-radio{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(52, 91, 254);
+    vertical-align: bottom;
+}
+input:checked ~ .custom-radio{
+    border-width: 5px;
+    border-color: rgb(52, 91, 254);
+}
 
 .grid {
     margin-top: 60px;
